@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
         - name: node-app
-          image:  k40t1kke/devopschallenge:${IMAGE_TAG}
+          image:  k40t1kke/devopschallenge:latest
           ports:
             - containerPort: 3000
